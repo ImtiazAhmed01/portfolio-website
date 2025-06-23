@@ -1,0 +1,44 @@
+[
+    {
+        "name": "HTML5",
+        "percentage": 90,
+        "description": "Markup language for structuring web content.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "website": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+    },
+    {
+        "name": "CSS3",
+        "percentage": 85,
+        "description": "Stylesheets for designing and enhancing websites.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "website": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+        "name": "DaisyUI",
+        "percentage": 70,
+        "description": "A component library built on Tailwind CSS.",
+        "icon": "https://daisyui.com/favicon.ico",
+        "website": "https://daisyui.com/docs/"
+    },
+    {
+        "name": "JavaScript",
+        "percentage": 75,
+        "description": "Programming language for web interactivity.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+        "name": "Tailwind CSS",
+        "percentage": 80,
+        "description": "Utility-first framework for rapid UI development.",
+        "icon": "https://i.ibb.co.com/GvM7nhtZ/9325303.webp",
+        "website": "https://tailwindcss.com/docs"
+    },
+    {
+        "name": "ReactJS",
+        "percentage": 85,
+        "description": "Library for building modern UI components.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "website": "https://react.dev/"
+    }
+]

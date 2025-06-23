@@ -1,0 +1,37 @@
+[
+    {
+        "name": "GitHub",
+        "percentage": 90,
+        "description": "Cloud-based platform for hosting and managing Git repositories with advanced collaboration features.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+        "website": "https://github.com/"
+    },
+    {
+        "name": "Firebase",
+        "percentage": 80,
+        "description": "Platform developed by Google for creating mobile and web applications with real-time databases, hosting, and authentication.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        "website": "https://firebase.google.com/"
+    },
+    {
+        "name": "Vercel",
+        "percentage": 88,
+        "description": "Platform for frontend developers to host, deploy, and scale websites and applications globally.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+        "website": "https://vercel.com/"
+    },
+    {
+        "name": "Git",
+        "percentage": 85,
+        "description": "Distributed version control system for tracking changes in source code during software development.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
+        "website": "https://git-scm.com/"
+    },
+    {
+        "name": "VS Code",
+        "percentage": 95,
+        "description": "Source-code editor developed by Microsoft with support for debugging, syntax highlighting, intelligent code completion, and version control.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        "website": "https://code.visualstudio.com/"
+    }
+]

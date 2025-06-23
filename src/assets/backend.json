@@ -1,0 +1,30 @@
+[
+    {
+        "name": "JWT",
+        "percentage": 80,
+        "description": "Compact, URL-safe means of representing claims to be transferred between two parties.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "website": "https://jwt.io/"
+    },
+    {
+        "name": "MongoDB",
+        "percentage": 85,
+        "description": "NoSQL database for scalable and flexible data storage.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "website": "https://www.mongodb.com/"
+    },
+    {
+        "name": "Node.js",
+        "percentage": 90,
+        "description": "JavaScript runtime environment for building server-side applications.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "website": "https://nodejs.org/"
+    },
+    {
+        "name": "Express.js",
+        "percentage": 88,
+        "description": "Minimal and flexible Node.js web application framework.",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        "website": "https://expressjs.com/"
+    }
+]

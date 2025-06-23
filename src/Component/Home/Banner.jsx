@@ -65,7 +65,7 @@ const Banner = () => {
                             words={["Full Frontend Developer"]}
                             loop={false}
                             cursor
-                            cursorStyle="|"
+                            cursorStyle="..."
                             typeSpeed={100}
                             deleteSpeed={50}
                             delaySpeed={1000}
