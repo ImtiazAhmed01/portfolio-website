@@ -1,0 +1,152 @@
+[
+    {
+        "category": "Full Stack Development",
+        "plans": [
+            {
+                "tier": "Basic",
+                "title": "UI of Web Software",
+                "price": "US$110",
+                "description": "UI Prototyping of your software or web application in Figma",
+                "delivery": "5-day delivery",
+                "revisions": "Unlimited Revisions (for 1 week)",
+                "features": [
+                    "2 pages",
+                    "Design customization",
+                    "Content upload",
+                    "Responsive design",
+                    "Source code"
+                ]
+            },
+            {
+                "tier": "Standard",
+                "title": "Web Application",
+                "price": "US$1,500",
+                "description": "Software Developer for web application development",
+                "delivery": "14-day delivery",
+                "revisions": "Unlimited Revisions (for 3 weeks)",
+                "features": [
+                    "10 pages",
+                    "Design customization",
+                    "Content upload",
+                    "Responsive design",
+                    "Source code",
+                    "Detailed code comments"
+                ]
+            },
+            {
+                "tier": "Premium",
+                "title": "Custom Software",
+                "price": "US$3,500",
+                "description": "Full Stack Web Developer for custom software development from scratch",
+                "delivery": "30-day delivery",
+                "revisions": "Unlimited Revisions (for 1.5 months)",
+                "features": [
+                    "10 pages",
+                    "Design customization",
+                    "Content upload",
+                    "Responsive design",
+                    "Source code",
+                    "Detailed code comments"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Frontend Development",
+        "plans": [
+            {
+                "tier": "Basic",
+                "price": "US$100",
+                "description": "Basic Web Presence Frontend development using Figma (1–3 static pages)",
+                "delivery": "4-day delivery",
+                "revisions": "Unlimited Revisions (for 1 week)",
+                "features": [
+                    "3 pages",
+                    "5 products",
+                    "Functional website",
+                    "Speed optimization",
+                    "Hosting setup",
+                    "Social media icons"
+                ]
+            },
+            {
+                "tier": "Standard",
+                "price": "US$350",
+                "description": "Functional frontend with animations and ecommerce functionality (5–8 pages)",
+                "delivery": "7-day delivery",
+                "revisions": "Unlimited Revisions (2 weeks)",
+                "features": [
+                    "8 pages",
+                    "10 products",
+                    "Animation",
+                    "E-commerce functionality",
+                    "Payment Integration",
+                    "Speed optimization",
+                    "Hosting setup",
+                    "Social media icons"
+                ]
+            },
+            {
+                "tier": "Premium",
+                "price": "US$680",
+                "description": "Enterprise frontend with API integration (9–10 pages)",
+                "delivery": "10-day delivery",
+                "revisions": "Unlimited Revisions",
+                "features": [
+                    "10 pages",
+                    "20 products",
+                    "Animation",
+                    "E-commerce functionality",
+                    "Payment Integration",
+                    "Autoresponder integration",
+                    "Speed optimization",
+                    "Hosting setup",
+                    "Social media icons"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Backend Development",
+        "plans": [
+            {
+                "tier": "Basic",
+                "title": "Starter REST API",
+                "price": "US$15",
+                "description": "Simple REST API with 1–2 endpoints using Node.js and Express.js",
+                "delivery": "2-day delivery",
+                "revisions": "Unlimited Revisions (5 days)",
+                "features": [
+                    "Source code",
+                    "Detailed code comments"
+                ]
+            },
+            {
+                "tier": "Standard",
+                "title": "Scalable Express API",
+                "price": "US$80",
+                "description": "CRUD API with MongoDB, authentication using Node.js, Express.js",
+                "delivery": "4-day delivery",
+                "revisions": "Unlimited Revisions (10 days)",
+                "features": [
+                    "Source code",
+                    "Detailed code comments",
+                    "Database integration"
+                ]
+            },
+            {
+                "tier": "Premium",
+                "title": "Production-Ready Backend API",
+                "price": "US$150",
+                "description": "Full backend with 10+ endpoints, auth, MongoDB, deployment support",
+                "delivery": "7-day delivery",
+                "revisions": "Unlimited Revisions (15 days)",
+                "features": [
+                    "Source code",
+                    "Detailed code comments",
+                    "Database integration"
+                ]
+            }
+        ]
+    }
+]

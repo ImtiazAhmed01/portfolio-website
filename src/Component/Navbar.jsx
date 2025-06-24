@@ -22,9 +22,9 @@ const Navbar = () => {
                     <span className="text-xl font-semibold">Imtiaz Ahmed</span>
                 </div>
                 <ul className="hidden lg:flex gap-6 font-medium">
-                    <li><a href="#" className="hover:text-orange-500">Home</a></li>
+                    <li><a href="/" className="hover:text-orange-500">Home</a></li>
                     <li><a href="#" className="hover:text-orange-500">Blog & News</a></li>
-                    <li><a href="#" className="hover:text-orange-500">Services</a></li>
+                    <li><a href="/services" className="hover:text-orange-500">Services</a></li>
                 </ul>
 
                 <div className="flex gap-4">

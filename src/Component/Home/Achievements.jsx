@@ -17,7 +17,7 @@ const Achievements = () => {
         <div className=" min-h-screen text-white py-12 px-6" id="achievements">
             <h1 className="text-4xl font-bold text-center text-black mb-8">My Achievements</h1>
 
-            {/* Filter Buttons */}
+
             <div className="flex justify-center gap-4 mb-10">
                 {["all", "certificate", "hackathon"].map((type) => (
                     <button
