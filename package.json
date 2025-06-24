@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.10",
     "chartjs-plugin-datalabels": "^2.2.0",
     "framer-motion": "^12.19.1",
