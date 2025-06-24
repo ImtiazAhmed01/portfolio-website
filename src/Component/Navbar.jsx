@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -27,23 +28,14 @@ const Navbar = () => {
                 </ul>
 
                 <div className="flex gap-4">
-                    <a href="#" className="hover:text-orange-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" className="fill-current">
-                            <path d="M24 4.557c-...z" />
-                        </svg>
+                    <a href="https://github.com/ImtiazAhmed01" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className="text-orange-400 text-3xl transition-all duration-300 hover:text-[#00CC66]" />
                     </a>
-                    <a href="#" className="hover:text-orange-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" className="fill-current">
-                            <path d="M19.615 3.184c-...z" />
-                        </svg>
+                    <a href="https://www.linkedin.com/in/imtiaz-ahmed-25a357201" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className="text-orange-400 text-3xl transition-all duration-300 hover:text-[#00CC66]" />
                     </a>
-                    <a href="#" className="hover:text-orange-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" className="fill-current">
-                            <path d="M9 8h-3v4h3v12h5v-12h3.642...z" />
-                        </svg>
+                    <a href="https://www.facebook.com/imtiaz.ahmedar" target="_blank" rel="noopener noreferrer">
+                        <FaFacebook className="text-orange-400 text-3xl transition-all duration-300 hover:text-[#00CC66]" />
                     </a>
                 </div>
             </div>

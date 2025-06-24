@@ -62,30 +62,39 @@ const ChartSection = ({ title, data, side = "left" }) => {
         threshold: 0.3,
     });
 
+    const handleClick = (webUrl) => {
+        console.log(webUrl)
+        window.open(webUrl, '_blank');
+    }
+
     return (
-        <div className="flex flex-col md:flex-row items-center justify-between my-12 gap-6">
-            {side === "left" && (
-                <div className="w-full md:w-1/2" ref={ref}>
-                    {inView && <Pie data={chartData} options={chartOptions} />}
-                </div>
-            )}
-
-            <div className="w-full md:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {data.map((s, i) => (
-                    <div key={i} className="bg-[#FFEB3B] text-black p-4 rounded-xl hover:shadow-lg transition">
-                        <img src={s.icon} alt={s.name} className="w-10 h-10 mb-2" />
-                        <h4 className="font-bold">{s.name}</h4>
-                        <p className="text-sm">{s.description}</p>
-                        <p className="text-sm">{s.percentage}%</p>
+        <div>
+            <h3 className="text-3xl font-bold text-center underline">{title}</h3>
+            <div className="flex flex-col md:flex-row items-center justify-between my-6 gap-6">
+                {side === "left" && (
+                    <div className="w-full md:w-1/2" ref={ref}>
+                        {inView && <Pie data={chartData} options={chartOptions} />}
                     </div>
-                ))}
-            </div>
+                )}
 
-            {side === "right" && (
-                <div className="w-full md:w-1/2" ref={ref}>
-                    {inView && <Pie data={chartData} options={chartOptions} />}
+                <div className="w-full md:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    {data.map((s, i) => (
+                        <div key={i} className="bg-[#FFEB3B] text-black p-4 rounded-xl hover:shadow-lg transition">
+                            <img src={s.icon} alt={s.name} className="w-10 h-10 mb-2" />
+                            <h4 className="font-bold">{s.name}</h4>
+                            <p className="text-sm">{s.description}</p>
+                            <p className="text-sm font-bold">{s.percentage}%</p>
+                            <button className="bg-[#2E1D10] hover:bg-[#2E1D10]/80 text-white font-bold py-2 px-3 rounded mt-2 -ml-2" onClick={() => handleClick(s.website)}> Visit website</button>
+                        </div>
+                    ))}
                 </div>
-            )}
+
+                {side === "right" && (
+                    <div className="w-full md:w-1/2" ref={ref}>
+                        {inView && <Pie data={chartData} options={chartOptions} />}
+                    </div>
+                )}
+            </div>
         </div>
     );
 };
