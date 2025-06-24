@@ -1,0 +1,42 @@
+[
+    {
+        "id": "cert1",
+        "type": "certificate",
+        "title": " Complete Web Development with Jhankar Mahbub",
+        "issuer": "Programming Hero",
+        "date": "2025-01-26",
+        "certificate_url": "https://drive.google.com/file/d/1h7gXtwbFiPc3b7QdhDAFDD-Z8Kv9JSyC/view?usp=sharing",
+        "image": "https://i.ibb.co/kV51WnrV/C1.jpg"
+    },
+    {
+        "id": "cert2",
+        "type": "certificate",
+        "title": "CV WRITING & INTERVIEW",
+        "issuer": "10 Minutes School",
+        "date": "2025-05-08",
+        "certificate_url": "https://drive.google.com/file/d/1NFIzCVrZEO_cFN56cWl1yr7Gm6gxD7kf/view?usp=sharing",
+        "image": "https://i.ibb.co/xqnG3mMc/C2.jpg"
+    },
+    {
+        "id": "hack1",
+        "type": "hackathon",
+        "title": "BUCC IntraHacktive 1.0",
+        "role": "Team Leader",
+        "organization": "BRAC University Computer Club",
+        "date": "2024-11-11",
+        "result": "7th",
+        "project_url": "https://drive.google.com/file/d/1LWzMApZi3MX-T2HvmXc8y8p5xbnaaOg0/view?usp=sharing",
+        "image": "https://i.ibb.co/LbMQ3r1/C3.jpg"
+    },
+    {
+        "id": "hack2",
+        "type": "hackathon",
+        "title": "EWU National ROBOFEST 2024",
+        "role": "Team Leader",
+        "organization": "East West University & Programming Hero",
+        "date": "2024-11-08",
+        "result": " ",
+        "project_url": "https://drive.google.com/file/d/1I0XzTdEH5zbaRjd4LwIv_G95JsjDjRC0/view?usp=sharing",
+        "image": "https://i.ibb.co/QjNT1czR/C4.jpg"
+    }
+]

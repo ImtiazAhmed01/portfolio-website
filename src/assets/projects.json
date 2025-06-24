@@ -1,0 +1,64 @@
+[
+    {
+        "project_name": "Multi Visa Navigator",
+        "project_image": "https://i.ibb.co.com/pjzgNkff/Screenshot-42.png",
+        "details": {
+            "main_technology_stack": [
+                "React",
+                "Node.js",
+                "Express",
+                "Firebase",
+                "MongoDB",
+                "Tailwind CSS",
+                "DaisyUi"
+            ],
+            "brief_description": "Multi Visa Navigator is a web application that helps users track and manage their visa applications efficiently. The platform provides a seamless experience with a visa tracking system, light/dark mode toggle, and responsive design to enhance usability.",
+            "live_project_link": "https://multi-visa-navigator.web.app/",
+            "github_repository_link": "https://github.com/ImtiazAhmed01/multi-visa-navigator-client",
+            "challenges_faced": "Real-Time Status Updates – Ensuring seamless tracking and instant updates for users. Dark/Light Mode Consistency – Maintaining UI consistency across different themes.",
+            "potential_improvements": "Multi-Platform Integration – Expanding support for SMS/email notifications. Advanced Data Security – Implementing end-to-end encryption for better privacy protection."
+        }
+    },
+    {
+        "project_name": "Hotel Inner Heritage",
+        "project_image": "https://i.ibb.co.com/TDWhmdKt/Screenshot-44.png",
+        "details": {
+            "main_technology_stack": [
+                "React",
+                "Node.js",
+                "Express",
+                "Firebase",
+                "MongoDB",
+                "Tailwind CSS",
+                "DaisyUi"
+            ],
+            "brief_description": "Hotel Inner Heritage is a web application that showcases a luxurious heritage hotel, allowing users to explore available rooms, book accommodations, and share reviews. The platform offers a seamless user experience with interactive UI elements, a booking system, and an integrated review mechanism.",
+            "live_project_link": "https://hotel-inner-heritage.web.app/",
+            "github_repository_link": "https://github.com/ImtiazAhmed01/hotel-inner-heritage-client-side",
+            "challenges_faced": "Room Filtering Efficiency – Optimizing filters for price range and availability without affecting performance. Review Moderation – Ensuring only verified users can leave reviews while preventing spam.",
+            "potential_improvements": "Advanced Booking System – Adding payment integration for seamless transactions. Enhanced Review Features – Implementing an admin panel for moderating and responding to reviews."
+        }
+    },
+    {
+        "project_name": "Imtiaz Tourism Ltd",
+        "project_image": "https://i.ibb.co.com/B2v9gpmc/Screenshot-45.png",
+        "details": {
+            "main_technology_stack": [
+                "React",
+                "Node.js",
+                "Expressjs",
+                "MongoDB",
+                "Firebase",
+                "React-share",
+                "Stripe",
+                "Tailwind CSS",
+                "DaisyUi"
+            ],
+            "brief_description": "Imtiaz Tourism Ltd is an online tourist guide platform designed to help travelers explore Bangladesh. It provides in-depth information about destinations, local culture, cuisine, and activities to ensure a memorable travel experience. Users can discover landmarks, hidden gems, and plan trips efficiently.",
+            "live_project_link": "https://imtiaz-tourism-ltd.web.app/",
+            "github_repository_link": "https://github.com/ImtiazAhmed01/Imtiaz-Tourism-ltd-client-side",
+            "challenges_faced": "Managing Role-Based Access – Handling JWT authentication and permissions for different user roles (Tourist, Tour Guide, Admin) was complex. Real-Time Data Sync – Ensuring bookings, user stories, and dashboard updates were reflected instantly across the platform.",
+            "potential_improvements": "Better State Management – Using Redux or Zustand for improved performance instead of relying only on MongoDB. Payment Integration – Adding PayPal for secure online bookings."
+        }
+    }
+]

@@ -2,6 +2,8 @@ import React from 'react';
 import Banner from './Banner';
 import About from './About';
 import Skills from './skills';
+import Projects from './Projects';
+import Achievements from './Achievements';
 
 const Home = () => {
     return (
@@ -9,6 +11,8 @@ const Home = () => {
             <Banner></Banner>
             <About></About>
             <Skills></Skills>
+            <Projects></Projects>
+            <Achievements></Achievements>
         </div>
     );
 };

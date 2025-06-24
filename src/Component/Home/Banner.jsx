@@ -33,8 +33,8 @@ const Banner = () => {
         downloadLink.click();
     };
     return (
-        <div className="px-12">
-            <section className="flex flex-col md:flex-row items-center justify-between  mt-3 md:px-12 py-12 md:py-20 relative bg-[#2E1D10] gap-10" id="/">
+        <div className="px-12 pt-2">
+            <section className="flex flex-col md:flex-row items-center justify-between  mt-3 md:px-12 py-12 md:py-20 relative bg-[#2E1D10] gap-10 rounded-xl" id="/">
 
                 <div
                     className="md:w-1/2 flex justify-center"
