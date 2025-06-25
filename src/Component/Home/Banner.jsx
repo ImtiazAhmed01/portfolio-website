@@ -1,24 +1,7 @@
-// import React from 'react';
-
-// const Banner = () => {
-//     return (
-//         <div>
-
-//         </div>
-//     );
-// };
-
-// export default Banner;
-
-
 import React from "react";
-// import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-// import image from '../../assets/images/IMG_20241207_132634_enhanced.jpg.png'
-// import image from '../../assets/images/Adobe Express - file.png'
-
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import image from "../../assets/images/pngtree-man-developer-with-laptop-png-image_11623646.png"
 const Banner = () => {
     const handleResumeAction = () => {
         window.open(
@@ -43,9 +26,9 @@ const Banner = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <img
-                        // src={image}
+                        src={image}
                         alt="Imtiaz Ahmed"
-                        className="w-72 h-72 rounded-full shadow-lg"
+                        className="w-80 h-80 rounded-full shadow-lg"
                     />
                 </div>
 

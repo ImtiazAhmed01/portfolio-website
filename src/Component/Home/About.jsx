@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Animation } from "./Animation";
+import image from '../../assets/images/360_F_489011346_ruC8LjrhsqgIPC8eIXEXvKk1dNnrSePx.jpg'
 
 const AboutMe = () => {
     return (
@@ -52,17 +53,19 @@ const AboutMe = () => {
                 </div>
 
                 <motion.div
-                    className="w-full md:w-1/3 bg-[#FFEB3B] flex items-center justify-center p-4"
+                    className="w-full md:w-1/3 bg-white flex items-center justify-center"
                     variants={Animation("up", 0.8)}
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true, amount: 0.7 }}
                 >
                     <img
-                        // src={image}
+                        src={image}
                         alt="Imtiaz Ahmed"
-                        className="w-48 h-48 rounded-full border-4 border-gray-700"
+                        className="w-full h-9/12 rounded-xl"
                     />
+
+
                 </motion.div>
             </motion.div>
         </section>
