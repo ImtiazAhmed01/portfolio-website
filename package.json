@@ -13,6 +13,7 @@
     "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.10",
     "chartjs-plugin-datalabels": "^2.2.0",
+    "firebase": "^11.9.1",
     "framer-motion": "^12.19.1",
     "react": "^19.1.0",
     "react-chartjs-2": "^5.3.0",
