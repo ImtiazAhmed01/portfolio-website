@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
                 <ul className="hidden lg:flex gap-6 font-medium">
                     <li><a href="/" className="hover:text-orange-500">Home</a></li>
-                    <li><a href="#" className="hover:text-orange-500">Blog & News</a></li>
+                    <li><a href="/blogs&news" className="hover:text-orange-500">Blog & News</a></li>
                     <li><a href="/services" className="hover:text-orange-500">Services</a></li>
                 </ul>
 
